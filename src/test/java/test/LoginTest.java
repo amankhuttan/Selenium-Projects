@@ -1,5 +1,6 @@
 package test;
 
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -8,11 +9,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class testy {
 
+
+public class LoginTest {
 
 	
-	public static void  main ( String [] arrgs) {
+	@Test
+	public static void LoginTest() {
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/");
